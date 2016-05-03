@@ -3,7 +3,7 @@ import { Http, Response } from 'angular2/http';
 
 @Injectable()
 
-export class LoopbackAuthService {
+export class AuthService {
 	constructor(private _http: Http) {
 
 	}

@@ -1,5 +1,5 @@
 import { Component } from 'angular2/core';
-import { LoobackAuthService } from '../services/loopback-auth.service';
+import { AuthService } from '../services/loopback-auth.service';
 
 @Component ({
 	selector: 'loopback-login',
@@ -7,7 +7,7 @@ import { LoobackAuthService } from '../services/loopback-auth.service';
 	styleUrls: ['directives/loopback-login.css']
 })
 
-export class LBLoginComponent {
+export class LoginComponent {
 	
 	username: string;
 	password: string;
