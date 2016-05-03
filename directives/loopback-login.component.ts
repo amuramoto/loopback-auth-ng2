@@ -1,4 +1,4 @@
-import { Component } from 'angular2/core';
+import { Component } from '@angular/core';
 import { AuthService } from '../services/loopback-auth.service';
 
 @Component ({
@@ -12,7 +12,7 @@ export class LoginComponent {
 	username: string;
 	password: string;
 
-	constructor (private _LBAuth: LoopbackAuthService) {}
+	constructor (private _LBAuth: AuthService) {}
 	
 	
 }
