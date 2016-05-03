@@ -10,8 +10,8 @@
     "type": "git",
     "url": "git+https://github.com/amuramoto/loopback-login-ng2.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Alex Muramoto",
+  "license": "	Apache-2.0",
   "bugs": {
     "url": "https://github.com/amuramoto/loopback-login-ng2/issues"
   },
