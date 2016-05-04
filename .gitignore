@@ -1,3 +1,9 @@
 .DS_Store
+<<<<<<< HEAD
 .js*
 .d.ts
+=======
+*.js*
+*.d.ts
+node_modules
+>>>>>>> 79b6a9a4bc337d0234f87b62557318ca3a5eddbb
